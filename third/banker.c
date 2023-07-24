@@ -65,10 +65,35 @@ void main(){
         process=a+1;
         goto A;
     }
-    printf("\t<");
+    printf("<");
     for(i=0;i<k;i++){
         printf("P[%d]",op[i]);
         printf(">");
     }
     getchar();
 }
+/*enter no of resources:3
+Enter the max instances in each resources:a=10
+b=5
+c=7
+Enter the no of processes:5
+
+ Enter the allocation matrix
+a
+b
+c
+P[0]0 1 0
+P[1]2 0 0
+P[2]3 0 2
+P[3]2 1 1
+P[4]0 0 2
+
+Enter the MAX matrix
+abc
+P[0] 7 5 3
+P[1] 3 2 2
+P[2] 9 0 2
+P[3] 2 2 2
+P[4] 4 3 3
+
+        <P[1]>P[3]>P[4]>P[0]>P[2]>*/
