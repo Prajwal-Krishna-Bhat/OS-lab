@@ -49,3 +49,20 @@ void main(){
     }
     printf("Page Fault:%d",pagefault);
 }
+/*Page    Frame1  Frame2  Frame3
+1:      1
+2:      1       2
+3:      1       2       3
+2:      1       2       3
+1:      1       2       3
+5:      1       2       5
+2:      1       2       5
+1:      1       2       5
+6:      1       2       6
+2:      1       2       6
+5:      5       2       6
+6:      5       2       6
+3:      5       3       6
+1:      1       3       6
+3:      1       3       6
+Page Fault:8*/
