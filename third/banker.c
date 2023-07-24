@@ -42,6 +42,15 @@ void main(){
         }
     }
     printf("\n");
+    for (int i = 0; i < process; i++)
+    {
+        printf("P[%d] ",i);
+        for (int j = 0; j < resources; j++)
+        {
+            scanf("%d",&max[i][j]);
+        }
+    }
+    printf("\n");
     A:a=-1;
     for(i=0;i<process;i++){
         cnt=0;
