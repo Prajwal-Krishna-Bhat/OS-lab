@@ -32,16 +32,6 @@ void main(){
         availability[i]=instance[i]-availability[i];
     }
     printf("\n");
-    for ( i = 0; i < process; i++)
-    {
-        cnt=0;
-        b=P[i];
-        for ( j = 0; j < resources; j++)
-        {
-            scanf("%d",&max[i][j]);
-        }
-    }
-    printf("\n");
     for (int i = 0; i < process; i++)
     {
         printf("P[%d] ",i);
