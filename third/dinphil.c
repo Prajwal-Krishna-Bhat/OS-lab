@@ -54,3 +54,18 @@ void dine(int n){
     pthread_mutex_unlock(&chopstick[(n+1)%Num_Chopsticks]);
     printf("\nPhilosopher %d finished eating",n);
 }
+/*Philosopher 3 is thinking
+Philosopher 3 is eating
+Philosopher 2 is thinking
+Philosopher 1 is thinking
+Philosopher 5 is thinking
+Philosopher 4 is thinking
+Philosopher 3 finished eating
+Philosopher 2 is eating
+Philosopher 4 is eating
+Philosopher 4 finished eating
+Philosopher 2 finished eating
+Philosopher 1 is eating
+Philosopher 1 finished eating
+Philosopher 5 is eating
+Philosopher 5 finished eating*/
